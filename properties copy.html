@@ -3,7 +3,7 @@
     <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <title>Monolit   - Responsive  Architecture Template</title>
+        <title>Virtu</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content=""/>
@@ -42,90 +42,13 @@
                     <!-- mobile nav button end -->
                     <!-- navigation  -->
                     <div class="nav-holder">
-                        <nav>
+                        <nav class="scroll-nav">
                             <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                    <!--second level -->
-                                    <ul>
-                                        <li><a href="index.html">Image</a></li>
-                                        <li><a href="index2.html">Slider</a></li>
-                                        <li><a href="index3.html">Slideshow</a></li>
-                                        <li><a href="index4.html">Video</a></li>
-                                        <li>
-                                            <a href="#">One page</a>
-                                            <ul>
-                                                <li><a href="onepage-1.html">Image</a></li>
-                                                <li><a href="onepage-2.html">Slider</a></li>
-                                                <li><a href="onepage-3.html">Slideshow</a></li>
-                                                <li><a href="onepage-4.html">Video</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <!--second level end-->
-                                </li>
-                                <li>
-                                    <a href="portfolio.html" class="act-link">Portfolio</a>
-                                    <!--second level -->
-                                    <ul>
-                                        <li>
-                                            <a href="#">Horizontal</a>
-                                            <!--third level -->
-                                            <ul>
-                                                <li><a href="portfolio.html">2 columns</a></li>
-                                                <li><a href="portfolio2.html">3 columns</a></li>
-                                                <li><a href="portfolio3.html">1 column</a></li>
-                                            </ul>
-                                            <!--third level end-->
-                                        </li>
-                                        <li>
-                                            <a href="#">Vertical</a>
-                                            <!--third level -->
-                                            <ul>
-                                                <li><a href="portfolio4.html">3 columns</a></li>
-                                                <li><a href="portfolio5.html">4 columns</a></li>
-                                                <li><a href="portfolio6.html">Fullsreen</a></li>
-                                            </ul>
-                                            <!--third level end-->
-                                        </li>
-                                        <li><a href="portfolio-parallax.html">Parallax</a></li>
-                                        <li>
-                                            <a href="portfolio-single.html">Single</a>
-                                            <!--third level -->
-                                            <ul>
-                                                <li><a href="portfolio-single.html">Boxed Gallery</a></li>
-                                                <li><a href="portfolio-single2.html">Horizontal</a></li>
-                                                <li><a href="portfolio-single3.html">Horizontal 3d</a></li>
-                                                <li><a href="portfolio-single4.html">Horizontal style2</a></li>
-                                                <li><a href="portfolio-single5.html">Boxed Slider</a></li>
-                                                <li><a href="portfolio-single6.html">Boxed video</a></li>
-                                                <li><a href="portfolio-single7.html">Fullsreen slider</a></li>
-                                                <li><a href="portfolio-single8.html">Fullsreen video</a></li>
-                                            </ul>
-                                            <!--third level end-->
-                                        </li>
-                                    </ul>
-                                    <!--second level end-->
-                                </li>
-                                <li>
-                                    <a href="about.html">About us </a>
-                                    <!-- Scroll navigation  -->
-                                </li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li>
-                                    <a href="#">Pages</a>
-                                    <!--second level end-->
-                                    <ul>
-                                        <li><a href="team-single.html">Team single</a></li>
-										<li><a href="team.html">Team</a></li>
-                                        <li><a href="blog-parallax.html">Blog parallax</a></li>
-                                        <li><a href="blog-single.html">Blog single</a></li>
-                                        <li><a href="404.html">404</a></li>
-                                    </ul>
-                                    <!--second level end-->
-                                </li>
+                                <li><a class="scroll-link" href="#sec1"  data-bgtex="Home"><span>Home</span></a></li>
+                                <li><a class="scroll-link" href="#sec2"  data-bgtex="about us"><span>About</span></a></li>
+                                <li><a class="scroll-link" href="properties.html"  data-bgtex="Featured works"><span>Properties</span></a></li>
+                                <li><a class="scroll-link" href="#sec6"  data-bgtex="Our services"><span>Services</span></a></li>
+                                <li><a class="scroll-link" href="#sec7"  data-bgtex="contacts"><span>Contacts</span></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -179,10 +102,9 @@
                                 <div class="filter-holder inline-filter">
                                     <div class="gallery-filters">
                                         <a href="#" class="gallery-filter transition2 gallery-filter_active" data-filter="*">All</a>
-                                        <a href="#" class="gallery-filter transition2" data-filter=".interior">Interior</a>
-                                        <a href="#" class="gallery-filter transition2" data-filter=".construction">Construction</a>
-                                        <a href="#" class="gallery-filter transition2" data-filter=".design">Design</a>
-                                        <a href="#" class="gallery-filter transition2" data-filter=".houses">Houses</a>
+                                        <a href="#" class="gallery-filter transition2" data-filter=".buy">Buy</a>
+                                        <a href="#" class="gallery-filter transition2" data-filter=".rent">Rent</a>
+                                        <a href="#" class="gallery-filter transition2" data-filter=".sold">Sold</a>
                                     </div>
                                     <div class="count-folio">
                                         <div class="num-album"></div>
@@ -195,12 +117,12 @@
                                     <!-- 1 -->
                                     <div class="gallery-item  interior houses construction">
                                         <div class="grid-item-holder">
-                                            <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                            <img  src="images/projekti/1./4.jpg"    alt="">
                                             <div class="port-desc-holder">
                                                 <div class="port-desc">
                                                     <div class="grid-item">
-                                                        <h3><a href="portfolio-single.html">Quisque non augue</a></h3>
-                                                        <span>Photography /    Interior</span>
+                                                        <h3><a href="projekt-1.html">ŠIŠKA</a></h3>
+                                                        <span>Rent / Buy </span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -210,12 +132,12 @@
                                     <!-- 3 -->
                                     <div class="gallery-item  gallery-item-second  interior">
                                         <div class="grid-item-holder">
-                                            <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                            <img  src="images/projekti/2./7.jpg"    alt="">
                                             <div class="port-desc-holder">
                                                 <div class="port-desc">
                                                     <div class="grid-item">
-                                                        <h3><a href="portfolio-single.html">Tincidunt ornare</a></h3>
-                                                        <span>Photography /    wood</span>
+                                                        <h3><a href="projekt-2.html">Seaside Portorož</a></h3>
+                                                        <span>Sold</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -225,12 +147,12 @@
                                     <!-- 4 -->
                                     <div class="gallery-item  design">
                                         <div class="grid-item-holder">
-                                            <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                            <img  src="images/projekti/1./5.jpg"    alt="">
                                             <div class="port-desc-holder">
                                                 <div class="port-desc">
                                                     <div class="grid-item">
-                                                        <h3><a href="portfolio-single.html">lacus purus</a></h3>
-                                                        <span>Photography /    design</span>
+                                                        <h3><a href="portfolio-single.html">Apartment</a></h3>
+                                                        <span>Sold</span>
                                                     </div>
                                                 </div>
                                             </div>
